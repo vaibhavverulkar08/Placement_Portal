@@ -1,0 +1,80 @@
+.cardA-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cardA-container {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 0 10px;
+    margin-bottom: 20px;
+
+}
+
+.cardA {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardA h2 {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.locicon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.locicon div {
+    display: flex;
+    align-items: center;
+}
+
+.locicon span {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.varify {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.package,
+.amount {
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.package {
+    background-color: lightgreen;
+    border: #210945 ;
+    color: black ;
+    margin-top: 7px;
+}
+
+.amount {
+    background-color: #dc3545;
+    border: #210945 ;
+    color: white;
+    margin-top: -15px;
+}
+
+.accept:hover,
+.reject:hover {
+    filter: brightness(0.8);
+    color: yellow;
+}

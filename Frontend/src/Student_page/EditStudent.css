@@ -1,0 +1,95 @@
+/* EditStudent.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Section */
+.maindiv {
+    display: flex;
+}
+
+.sbar {
+    width: 90px;
+    height: 100vh;
+    background: #111643;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.hv:hover {
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(111, 111, 176);
+}
+
+.dash {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Nevbar Section */
+.nevbar {
+    box-shadow: 10px 10px 10px cornflowerblue;
+    background-color: whitesmoke;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.heading {
+    font-size: 24px;
+    color: #333;
+}
+
+.profile {
+    padding: 0;
+}
+
+/* Card1 Section */
+.card1 {
+    box-shadow: 10px 10px 10px rgb(95, 93, 93);
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.profile_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primary-button {
+    background-color: #2549F9;
+    width: 120px;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    background-color: #0056b3;
+}
