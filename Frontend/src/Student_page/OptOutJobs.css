@@ -1,0 +1,32 @@
+.opt-out-jobs-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.jobs-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.job-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h2 {
+    margin-top: 0;
+}
+
+.opt-out-tag {
+    background-color: #ff5252;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 8px;
+    display: inline-block;
+}

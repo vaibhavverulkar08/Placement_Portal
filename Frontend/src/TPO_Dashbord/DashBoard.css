@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+}
+
+
+.sbar{
+    float: left;
+    width: 90px;
+    height: 100vh ;
+    background: #111643;
+    display:flex;
+    
+ 
+}   
+.div1{
+    
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+/* .icon1:{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(111, 111, 176);
+    padding: 15px;
+} */
+.icon1{
+    margin-left: 10px;
+}
+.hv:hover{
+    border-radius: 10px;
+    border: 1px solid  rgb(255, 255, 255);
+    background-color: rgb(111, 111, 176);
+    /* padding: 1px; */
+
+}
+
+.hv,.icon{
+    margin-bottom: 20px;
+}
+
+.dash{
+    margin-top: 0;
+}
+
+.dash:hover{
+    text-decoration: underline;
+}
+
+.icon{
+    margin-top: 10px;
+}
+
+.cntr{
+    margin-left: 7px;
+}
+
+.sectn{
+    background-color: white;
+    height: 100vw;
+    width: 100vw;
+}
+.nevbar{
+    box-shadow: 10px 10px 10px cornflowerblue;
+    background-color: whitesmoke;
+    height: 90px;
+    width: 100vw;
+
+}
+.leftsection{
+    margin-top: 20px;
+    margin-left: 200px;
+    float: right;
+    border: 3px solid;
+    width: 40vw;
+    height: 75vh;
+    border-radius: 15px;
+}
+.heading{   
+
+    float:left;
+    padding: 12px;
+    margin-left: 50px;
+    font-size: 40px;
+    color: black;
+}
+.profile{
+    padding: 0px;
+    float: right;
+    border-radius: 10px;
+    border: 1px solid  rgb(255, 255, 255);
+    background-color: rgba(203, 203, 221, 0.982);
+}
+
+.jobpost{
+    float: left;
+    border-radius: 20px;
+    margin-left: -550px;
+    margin-right: 0px;
+
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    width: 250px;
+    height: 6vh;
+    background-color: #2549F9;
+    color: #fff;
+    box-shadow: 10px 10px 10px rgb(95, 93, 93);
+    /* border: 3px solid; */
+    
+}
+
+.studentdata{
+    float: right;
+    border-radius: 20px;
+    /* margin-left: 400px; */
+    margin-right: 40px;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    width: 15vw;
+    height: 6vh;
+    background-color: #2549F9;
+    color: #fff;
+    box-shadow: 10px 10px 10px rgb(95, 93, 93)
+
+}
+
+.jobstudent{
+    width: 1415 px;
+    height: 100px;
+    /* border: 3px solid; */
+    margin-left:  90px;
+}
+/* .jobpost1{
+    float: left;
+    margin-left: 0px;
+    border: 3px solid;
+} */
+
+
+.card{
+    float: left;
+    box-shadow: 10px 10px 10px rgb(95, 93, 93);
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 360px;
+    height: 180px;
+    border: 3px solid;
+}
+
+
+.card1{
+    float: left;
+    box-shadow: 10px 10px 10px rgb(95, 93, 93);
+    border-radius: 15px;
+    margin-top: 250px;
+    margin-left: -360px;
+    width: 360px;
+    height: 180px;
+    border: 3px solid;
+}
+
+.locicon{
+    margin-top:45px ;
+    float: left;
+
+}
+
+.varify{
+    
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.accept{
+    background-color: #2549F9;
+    width: 80px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.reject{
+    border-radius: 7px;
+    color: #fff;
+    background-color: #2549F9;
+    width: 80px;
+    padding: 5px;
+}
+
+.graph{
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid #111643;
+    width: 500px;
+    height: 400px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 50px;
+}
+

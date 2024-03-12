@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sbar {
+    float: left;
+    width: 90px;
+    height: 100vh;
+    background: #111643;
+    display: flex;
+    flex-direction: column;
+}
+
+.div1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon1 {
+    margin-left: 10px;
+}
+
+.hv:hover {
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(111, 111, 176);
+}
+
+.dash {
+    margin-top: 0;
+}
+
+.dash:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    margin-top: 10px;
+}
+
+.sectn {
+    background-color: white;
+    height: 100vh;
+}
+
+.nevbar {
+    box-shadow: 10px 10px 10px cornflowerblue;
+    background-color: whitesmoke;
+    height: 90px;
+    width: 100vw;
+}
+
+.heading {
+    float: left;
+    padding: 12px;
+    margin-left: 50px;
+}
+
+.profile {
+    padding: 0px;
+    float: right;
+}
+
+.card1 {
+    box-shadow: 10px 10px 10px rgb(95, 93, 93);
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 500px;
+    border: 3px solid;
+}
+
+.profile_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-button {
+    background-color: #2549F9;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.profile-button:hover {
+    background-color: #0056b3;
+}
+
+
+.edu-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.edu-detail-section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.button-container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 250PX;
+}
+
+.save-edit-btn {
+    background-color: #2549F9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.save-edit-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.edu-detail-container {
+    background-color: #e4ecfc;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 50px !important;
+}

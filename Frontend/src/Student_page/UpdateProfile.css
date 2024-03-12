@@ -1,0 +1,205 @@
+.container {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9e5ee;
+    color: #fff;
+    padding: 30px;
+    width: 100%;
+}
+
+.logo-s {
+    font-size: 2rem;
+    margin-left: 140px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-button {
+    background-color: white;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.profile_button button {
+    background-color: #f6f6f7;
+    padding: 10px;
+    color: rgb(22, 2, 2);
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    transition: transform 0.3s; 
+}
+
+.profile_button button:hover {
+    background-color: #70b2fa;
+    transform: scale(1.1); 
+}
+
+.sbar {
+    background-color: #210945;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    top: 90px;
+    width: 160px !important;
+}
+
+.icon {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 12px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.icon:hover {
+    transform: scale(1.1); 
+}
+
+.dashCls {
+    margin: 0px;
+    width: 250px;
+    padding: 10px;
+    margin-top: -20px;
+    transition: background-color 0.3s;
+}
+
+.dashCls p:hover {
+    background-color: #ccc;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.dash4, .dash5, .dash6, .dash7 {
+    margin-top: 30px;
+    font-size: 11PX;
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 120px;
+    margin-left: 55px;
+}
+
+.dash {
+    margin-top: 20px;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+.update-profile {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.update-profile-logo {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-container div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type='text'], input[type='email'], input[type='tel'], textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-btnn {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.Details-Container {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 700px;
+    margin: 0 auto;
+background-color: #e4ecfc;}
+
+.profile_button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 175px;
+    margin-right: 10px;
+    width: 300px;
+    
+}
+
+.profile_button button {
+    background-color: #f6f6f7;
+    padding: 15px;
+    color: rgb(22, 2, 2);
+    border-radius: 7px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.profile_button button:hover {
+    background-color: #70b2fa;
+    transform: scale(1.1);
+}
+
+.sub-btnn button {
+    width: 100%;
+}
+
+.sub-btnn button[type='submit'] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sub-btnn button[type='submit']:hover {
+    background-color: #0056b3;
+}

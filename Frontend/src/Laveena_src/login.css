@@ -1,0 +1,64 @@
+body{
+    background-image: url(wt.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+    
+}
+.head{
+    background: linear-gradient(180deg, rgba(52, 86, 255, 0) 1.55%, rgba(0, 43, 255, 0.83) 10.47%, rgba(0, 43, 255, 0.83) 11.17%);  
+    border: double;
+     font-size: 350%;
+     border-radius: 10px; 
+   }
+
+.form{
+    margin-top: 5%;
+    margin-left: 32%;
+    width: 35%;
+    height: 10%;
+    border-radius: 20px;
+    background-color: rgb(100, 100, 100);
+    opacity: 100%;
+}
+input{
+    width: 60%;
+    height: 35%;
+    border-radius: 10px;
+    margin-left: 18%;
+    font-size: 20px;
+    padding: 2%;
+    color: #2549F9;
+    
+}
+
+label{
+    
+    margin-left: 18%;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.btn{
+    margin-left: 30%; 
+    height: 20%;
+    width:40%;
+    background-color: #0c35ff;
+    margin-top: 10px;
+    border-radius: 15px;
+    color:white;
+    padding: 1%;
+    font-size: 30px;
+
+  }
+
+.div2{
+    width: 28%;
+    height: 200px;
+    background-image: url(logo.png);
+    margin-left: 37%;
+    margin-top: -8%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}

@@ -1,0 +1,123 @@
+/* StudentEdit.css */
+
+/* Container for the main content */
+.maindiv {
+    display: flex;
+}
+
+/* Sidebar styling */
+.sbar {
+    float: left;
+    width: 90px;
+    height: 100vh;
+    background: #111643;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+/* Container for the sidebar items */
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px; /* Adjust top margin */
+}
+
+/* Hover effect for sidebar items */
+.hv:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the main content section */
+.sectn {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for the navbar section */
+.nevbar {
+    box-shadow: 10px 10px 10px cornflowerblue;
+    background-color: whitesmoke;
+    height: 90px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Heading styling */
+.heading {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+/* Profile icon styling */
+.profile {
+    margin-right: 20px;
+}
+
+/* Card styling for profile update options */
+.card1 {
+    box-shadow: 10px 10px 10px rgb(95, 93, 93);
+    border-radius: 15px;
+    margin-top: 50px;
+    width: 80%;
+    max-width: 1000px;
+    height: 500px;
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Profile update heading styling */
+.card1 h2 {
+    font-size: 30px;
+    margin-top: 12px;
+}
+
+/* Profile button container styling */
+.profile_button {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styling for buttons */
+.profile_button button {
+    background-color: #2549F9;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.profile_button button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the submit button */
+.submit-button {
+    background-color: #4CAF50;
+}
+
+/* Hover effect for the submit button */
+.submit-button:hover {
+    background-color: #45a049;
+}

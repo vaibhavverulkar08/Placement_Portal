@@ -1,0 +1,140 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #210945;
+    color: #fff;
+    padding: 20px;
+    height: 90px;
+}
+
+.logo-s {
+    font-size: 24px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nav-button {
+    background-color: #00796b;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+}
+
+.nav-button:hover {
+    background-color: #005a4c; /* Change color on hover */
+}
+
+.internship-details-container {
+    margin-top: 50px !important;
+    background-color: #E7EBFE;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.internship-details-section {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.input-group textarea {
+    resize: vertical;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: -570px;
+}
+
+.save-btn,
+.edit-btn {
+    background-color: #2549F9 !important;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+}
+
+.save-btn:hover,
+.edit-btn:hover {
+    background-color: #0056b3; /* Change color on hover */
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 25px; 
+    cursor: pointer;
+    font-weight: normal;    
+    margin-left: 50px;
+}
+
+/* Create the custom checkbox */
+input[type="checkbox"] + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+input[type="checkbox"]:checked + label:before {
+    background-color: #00796b; 
+}
+
+input[type="checkbox"] + label:after {
+    content: "\2713"; 
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    font-size: 14px;
+    color: #fff; 
+    display: none;
+}
+
+input[type="checkbox"]:checked + label:after {
+    display: block;
+}
